@@ -14,11 +14,11 @@
         "identifier" : "f97a4979-9257-3e39-afa3-92fb2bf4a964",
         "inputPorts" : [ ],
         "labels" : [ ],
-        "name" : "test",
+        "name" : "test2",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 1496.0,
-          "y" : 224.0
+          "x" : 1968.0,
+          "y" : 264.0
         },
         "processGroups" : [ {
           "comments" : "",
@@ -33,8 +33,8 @@
           "name" : "test123",
           "outputPorts" : [ ],
           "position" : {
-            "x" : 809.0,
-            "y" : 185.0
+            "x" : 648.0,
+            "y" : 104.0
           },
           "processGroups" : [ {
             "comments" : "",
