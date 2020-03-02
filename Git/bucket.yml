@@ -1,5 +1,5 @@
 flows:
-  6957678a-739e-4b00-90e1-e14f93292d9c: {ver: 2, file: flow1.snapshot, comments: test13,
-    author: search, created: 1583140248733, flowName: flow1, flowDesc: ''}
+  6957678a-739e-4b00-90e1-e14f93292d9c: {ver: 3, file: flow1.snapshot, comments: 'test
+      10:12', author: search, created: 1583140348528, flowName: flow1, flowDesc: ''}
 layoutVer: 1
 bucketId: 33609b8f-2ebf-4650-a2de-acac4d0eb95e
