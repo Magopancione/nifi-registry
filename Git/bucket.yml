@@ -1,6 +1,4 @@
 flows:
-  6957678a-739e-4b00-90e1-e14f93292d9c: {ver: 3, file: flow1.snapshot, comments: 'test
-      10:12', author: search, created: 1583140348528, flowName: flow1, flowDesc: ''}
   c630781b-c6e5-4365-bacb-87b83e645189: {ver: 1, file: test.snapshot, comments: '',
     author: search, created: 1585587819897, flowName: test, flowDesc: ''}
 layoutVer: 1
