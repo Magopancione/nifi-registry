@@ -5,8 +5,8 @@
   "content" : {
     "flowSnapshot" : {
       "externalControllerServices" : {
-        "00126061-67b2-3372-b472-62784f79a227" : {
-          "identifier" : "00126061-67b2-3372-b472-62784f79a227",
+        "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0" : {
+          "identifier" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
           "name" : "DBCPConnectionPool"
         }
       },
@@ -20,13 +20,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "8621ea98-cf9b-340d-834c-bb6bbf868b48",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "65377a31-7afa-3bc4-89a5-9b8e97f451f4",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -37,7 +37,7 @@
           "selectedRelationships" : [ "matched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "2e83c0c5-7d09-37c0-a995-defc1ea7c4b6",
             "name" : "EvaluateJsonPath",
             "type" : "PROCESSOR"
@@ -50,13 +50,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "2e83c0c5-7d09-37c0-a995-defc1ea7c4b6",
             "name" : "EvaluateJsonPath",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "b29fcfbb-816a-39ef-ad84-3513dfee70ea",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -67,7 +67,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "05d61659-a1e4-3ee2-9a3e-d43fa36485a2",
             "name" : "ConvertAvroToJSON",
             "type" : "PROCESSOR"
@@ -80,13 +80,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "955e891f-a8fc-3325-9702-a20bbd52feec",
             "name" : "PutSQL START",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "1546685d-b2d6-39fc-be37-719fc7d8d505",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -116,13 +116,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f3492c36-b709-3b08-a7e0-b9fee6aad479",
             "name" : "PutFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "75c3bedb-c64e-3926-8d83-0d25f9396d23",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -133,7 +133,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f3492c36-b709-3b08-a7e0-b9fee6aad479",
             "name" : "PutFile",
             "type" : "PROCESSOR"
@@ -146,13 +146,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f3492c36-b709-3b08-a7e0-b9fee6aad479",
             "name" : "PutFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "16ce117c-24c4-3e2d-9cdd-4a58c2ead704",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -163,9 +163,39 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "9936de73-6ba9-38aa-914b-ed704cfadf3c",
             "name" : "UpdateAttribute DATE_END_SPARK",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "2ae4cbec-42ac-36b5-bb78-b81f8dd79db2",
+            "name" : "UpdateAttribute DATE_END_SPARK",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "e1e3eb9e-23f2-3de5-96b3-500a005c219b",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "unmatched" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "f486e2a6-1bc3-35da-8721-8bd3234e3b9f",
+            "name" : "RouteOnAttribute CONTROLLO DATA",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -182,13 +212,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "77682968-6d18-393f-8bc1-a278da475dd5",
             "name" : "ExecuteSQL UPDATE Offset",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "3e97381d-2729-33ac-8c02-73b0b2808ffa",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -199,7 +229,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "77682968-6d18-393f-8bc1-a278da475dd5",
             "name" : "ExecuteSQL UPDATE Offset",
             "type" : "PROCESSOR"
@@ -212,43 +242,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "2ae4cbec-42ac-36b5-bb78-b81f8dd79db2",
-            "name" : "UpdateAttribute DATE_END_SPARK",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "e1e3eb9e-23f2-3de5-96b3-500a005c219b",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "unmatched" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "f486e2a6-1bc3-35da-8721-8bd3234e3b9f",
-            "name" : "RouteOnAttribute CONTROLLO DATA",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f486e2a6-1bc3-35da-8721-8bd3234e3b9f",
             "name" : "RouteOnAttribute CONTROLLO DATA",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "a39e2f1f-f111-34f7-a05e-0a7cf7f0b707",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -259,7 +259,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "130f5824-e7c4-351b-a755-507504552ce6",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
@@ -281,7 +281,7 @@
             "type" : "INPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "5b39af61-b422-30ab-84a8-29acc4f78df6",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -292,7 +292,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "05d61659-a1e4-3ee2-9a3e-d43fa36485a2",
             "name" : "ConvertAvroToJSON",
             "type" : "PROCESSOR"
@@ -305,13 +305,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "9936de73-6ba9-38aa-914b-ed704cfadf3c",
             "name" : "UpdateAttribute DATE_END_SPARK",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "bf98750e-034f-3204-b72f-e0fd98b2ff0c",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -322,7 +322,7 @@
           "selectedRelationships" : [ "nonzero status" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "ea66d530-efb5-30cd-bf32-caac463b346a",
             "name" : "Spark Job",
             "type" : "PROCESSOR"
@@ -341,13 +341,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "955e891f-a8fc-3325-9702-a20bbd52feec",
             "name" : "PutSQL START",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "701e9cc8-2354-336c-92bf-996191b33a8b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -358,7 +358,7 @@
           "selectedRelationships" : [ "failure", "retry" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "955e891f-a8fc-3325-9702-a20bbd52feec",
             "name" : "PutSQL START",
             "type" : "PROCESSOR"
@@ -371,13 +371,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "130f5824-e7c4-351b-a755-507504552ce6",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "aff5953d-8fc0-320b-8f2f-7fef0a3dc4d6",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -388,7 +388,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "189732c9-03aa-3082-b7b2-a2d265dbf705",
             "name" : "Prepare Job Spark Attributes",
             "type" : "PROCESSOR"
@@ -407,13 +407,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "b844e162-3495-35c8-a620-37e3c6da8426",
             "name" : "Order by Timestamp",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "2f7abdea-a3a6-31c2-b17f-f77ea4b473eb",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -424,7 +424,7 @@
           "selectedRelationships" : [ "wait" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "b844e162-3495-35c8-a620-37e3c6da8426",
             "name" : "Order by Timestamp",
             "type" : "PROCESSOR"
@@ -437,13 +437,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "d7651a81-9518-38b9-bd1b-1e9b36b5cb3f",
             "name" : "Convert Date to Timestamp",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "6ce47f52-6432-3734-b7d0-91e3edb9f8ad",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -454,7 +454,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "e11a48bd-c5ae-389f-bed3-a2f3d52dd9d2",
             "name" : "Recovery Attribute",
             "type" : "PROCESSOR"
@@ -473,7 +473,7 @@
             "type" : "INPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "d1fe5886-04f1-3f52-9350-1d846b94ddb0",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -484,7 +484,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "d32ed706-2900-3651-8ef1-7511e2b658bb",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
@@ -497,13 +497,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f988862a-7846-3854-81b8-24e0fb0e73f5",
             "name" : "PutSQL EVENT LOG SUCCESSED",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "27a92cdd-3278-3bc8-abc2-353b3bb7b866",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -514,7 +514,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "77682968-6d18-393f-8bc1-a278da475dd5",
             "name" : "ExecuteSQL UPDATE Offset",
             "type" : "PROCESSOR"
@@ -536,7 +536,7 @@
             "type" : "INPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "e8863d63-da04-394b-ba9b-688fa148ddaf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -547,69 +547,9 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "8de2fcb7-e105-352a-a662-c70e08fd07f5",
             "name" : "ExecuteSQL Per Offset",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "e11a48bd-c5ae-389f-bed3-a2f3d52dd9d2",
-            "name" : "Recovery Attribute",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "375ebc47-ff48-3488-b9d3-784b843508e8",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "955e891f-a8fc-3325-9702-a20bbd52feec",
-            "name" : "PutSQL START",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "b844e162-3495-35c8-a620-37e3c6da8426",
-            "name" : "Order by Timestamp",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "7a91ca3c-919b-393e-9cbc-b1746657e4c7",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "d7651a81-9518-38b9-bd1b-1e9b36b5cb3f",
-            "name" : "Convert Date to Timestamp",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -629,7 +569,7 @@
             "type" : "INPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "bbf9104e-2af1-38b7-ad1e-74fff8251430",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -640,7 +580,7 @@
           "selectedRelationships" : [ "failure", "skipped" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "b844e162-3495-35c8-a620-37e3c6da8426",
             "name" : "Order by Timestamp",
             "type" : "PROCESSOR"
@@ -653,13 +593,73 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "b844e162-3495-35c8-a620-37e3c6da8426",
+            "name" : "Order by Timestamp",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "7a91ca3c-919b-393e-9cbc-b1746657e4c7",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "d7651a81-9518-38b9-bd1b-1e9b36b5cb3f",
+            "name" : "Convert Date to Timestamp",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "e11a48bd-c5ae-389f-bed3-a2f3d52dd9d2",
+            "name" : "Recovery Attribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "375ebc47-ff48-3488-b9d3-784b843508e8",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "955e891f-a8fc-3325-9702-a20bbd52feec",
+            "name" : "PutSQL START",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "05d61659-a1e4-3ee2-9a3e-d43fa36485a2",
             "name" : "ConvertAvroToJSON",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "b3fa75aa-e3af-33fa-95ee-3aec73230fee",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -670,7 +670,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "8de2fcb7-e105-352a-a662-c70e08fd07f5",
             "name" : "ExecuteSQL Per Offset",
             "type" : "PROCESSOR"
@@ -689,13 +689,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f988862a-7846-3854-81b8-24e0fb0e73f5",
             "name" : "PutSQL EVENT LOG SUCCESSED",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "18a8abf2-6577-3848-9137-2a4e437523ab",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -706,7 +706,7 @@
           "selectedRelationships" : [ "failure", "retry" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f988862a-7846-3854-81b8-24e0fb0e73f5",
             "name" : "PutSQL EVENT LOG SUCCESSED",
             "type" : "PROCESSOR"
@@ -719,13 +719,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "354de952-fca4-38de-8da6-b40212f5505a",
             "name" : "PutSQL EVENT LOG FAIL",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "af769936-5217-3cf8-8891-ca95d9a65066",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -736,7 +736,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "f3492c36-b709-3b08-a7e0-b9fee6aad479",
             "name" : "PutFile",
             "type" : "PROCESSOR"
@@ -749,43 +749,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "85095313-7646-3c6f-a3c4-32c444a6be4c",
-            "name" : "PutSQL EVENT LOG FAIL",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "f4ad00aa-661b-3bd2-87e9-703e36349918",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "2ae4cbec-42ac-36b5-bb78-b81f8dd79db2",
-            "name" : "UpdateAttribute DATE_END_SPARK",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "e11a48bd-c5ae-389f-bed3-a2f3d52dd9d2",
             "name" : "Recovery Attribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "d90170e6-be38-3145-bc43-a2b33a3134b6",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -805,6 +775,36 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "85095313-7646-3c6f-a3c4-32c444a6be4c",
+            "name" : "PutSQL EVENT LOG FAIL",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "f4ad00aa-661b-3bd2-87e9-703e36349918",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "2ae4cbec-42ac-36b5-bb78-b81f8dd79db2",
+            "name" : "UpdateAttribute DATE_END_SPARK",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
           "bends" : [ {
             "x" : 348.4959716796875,
             "y" : -1941.8885498046875
@@ -812,13 +812,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "8de2fcb7-e105-352a-a662-c70e08fd07f5",
             "name" : "ExecuteSQL Per Offset",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "9d485983-2386-3a73-824b-fcf71a1316ee",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -829,7 +829,7 @@
           "selectedRelationships" : [ "overtook", "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "b844e162-3495-35c8-a620-37e3c6da8426",
             "name" : "Order by Timestamp",
             "type" : "PROCESSOR"
@@ -842,43 +842,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "2c322a4d-3511-39a8-904d-9f2f22fb57d3",
-            "name" : "UpdateAttribute DATE_END_SPARK",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "9561d441-c718-3a2e-b212-aaa4160877dd",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "output stream" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "ea66d530-efb5-30cd-bf32-caac463b346a",
-            "name" : "Spark Job",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "77682968-6d18-393f-8bc1-a278da475dd5",
             "name" : "ExecuteSQL UPDATE Offset",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "05425548-f4f9-3837-9898-40f80c895cb8",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -889,7 +859,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "2c322a4d-3511-39a8-904d-9f2f22fb57d3",
             "name" : "UpdateAttribute DATE_END_SPARK",
             "type" : "PROCESSOR"
@@ -908,13 +878,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "354de952-fca4-38de-8da6-b40212f5505a",
             "name" : "PutSQL EVENT LOG FAIL",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "9d10b7d8-aa68-334f-b140-f9da51f3ab9d",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -925,9 +895,39 @@
           "selectedRelationships" : [ "failure", "retry" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "354de952-fca4-38de-8da6-b40212f5505a",
             "name" : "PutSQL EVENT LOG FAIL",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "2c322a4d-3511-39a8-904d-9f2f22fb57d3",
+            "name" : "UpdateAttribute DATE_END_SPARK",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "9561d441-c718-3a2e-b212-aaa4160877dd",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "output stream" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "ea66d530-efb5-30cd-bf32-caac463b346a",
+            "name" : "Spark Job",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -944,13 +944,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "85095313-7646-3c6f-a3c4-32c444a6be4c",
             "name" : "PutSQL EVENT LOG FAIL",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "11a75206-dae7-3af2-8682-79bc6dd5cf55",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -961,7 +961,7 @@
           "selectedRelationships" : [ "failure", "retry" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "85095313-7646-3c6f-a3c4-32c444a6be4c",
             "name" : "PutSQL EVENT LOG FAIL",
             "type" : "PROCESSOR"
@@ -983,7 +983,7 @@
             "type" : "INPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "012342b8-8acc-3978-9286-8a99cea89104",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -994,7 +994,7 @@
           "selectedRelationships" : [ "failure", "unmatched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "2e83c0c5-7d09-37c0-a995-defc1ea7c4b6",
             "name" : "EvaluateJsonPath",
             "type" : "PROCESSOR"
@@ -1007,43 +1007,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "ea66d530-efb5-30cd-bf32-caac463b346a",
-            "name" : "Spark Job",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "93100ec0-0e5c-31af-96a9-a05ec7162962",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "controlloFile" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
-            "id" : "f486e2a6-1bc3-35da-8721-8bd3234e3b9f",
-            "name" : "RouteOnAttribute CONTROLLO DATA",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "189732c9-03aa-3082-b7b2-a2d265dbf705",
             "name" : "Prepare Job Spark Attributes",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "74d085e1-30dc-34f7-a866-ad2cec33b291",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1054,7 +1024,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "8621ea98-cf9b-340d-834c-bb6bbf868b48",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
@@ -1067,13 +1037,43 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "ea66d530-efb5-30cd-bf32-caac463b346a",
+            "name" : "Spark Job",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "93100ec0-0e5c-31af-96a9-a05ec7162962",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "controlloFile" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+            "id" : "f486e2a6-1bc3-35da-8721-8bd3234e3b9f",
+            "name" : "RouteOnAttribute CONTROLLO DATA",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "d32ed706-2900-3651-8ef1-7511e2b658bb",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "31cf658e-1dd2-3426-8dbf-263d6011ecf0",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1084,7 +1084,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "4a273092-2d11-394b-866f-57dbe2e498ef",
             "name" : "ListHDFS",
             "type" : "PROCESSOR"
@@ -1106,7 +1106,7 @@
             "type" : "INPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "972e5b7f-74e4-38f5-a866-f441313766de",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1117,7 +1117,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "7a80b231-d574-347a-864b-3750a8798d5d",
+            "groupId" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
             "id" : "d7651a81-9518-38b9-bd1b-1e9b36b5cb3f",
             "name" : "Convert Date to Timestamp",
             "type" : "PROCESSOR"
@@ -1140,12 +1140,12 @@
             },
             "type" : "org.apache.nifi.dbcp.DBCPService"
           } ],
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "6990e9ee-77ba-377b-aacb-cf0e90a81579",
           "name" : "DBCPConnectionPoolLookup",
           "properties" : {
-            "SCHEMA2" : "00126061-67b2-3372-b472-62784f79a227",
-            "SCHEMA1" : "00126061-67b2-3372-b472-62784f79a227"
+            "SCHEMA2" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
+            "SCHEMA1" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0"
           },
           "propertyDescriptors" : {
             "SCHEMA2" : {
@@ -1164,11 +1164,11 @@
           "type" : "org.apache.nifi.dbcp.DBCPConnectionPoolLookup"
         } ],
         "funnels" : [ ],
-        "identifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+        "identifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
         "inputPorts" : [ ],
         "labels" : [ {
           "componentType" : "LABEL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "height" : 92.25166320800781,
           "identifier" : "0c8bcf3f-e6b4-3fa0-98a7-a3a143fb59f4",
           "label" : "FINE SPARK",
@@ -1183,7 +1183,7 @@
           "width" : 404.6849670410156
         }, {
           "componentType" : "LABEL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "height" : 150.0,
           "identifier" : "ee40ed68-eccb-3cf3-babb-f5b779a7ab6e",
           "label" : "controllo data\n",
@@ -1199,8 +1199,8 @@
         "name" : "SPARK",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -240.0,
-          "y" : 184.0
+          "x" : -1192.0,
+          "y" : -2160.0
         },
         "processGroups" : [ {
           "comments" : "",
@@ -1268,6 +1268,36 @@
           }, {
             "backPressureDataSizeThreshold" : "1 GB",
             "backPressureObjectThreshold" : 10000,
+            "bends" : [ ],
+            "componentType" : "CONNECTION",
+            "destination" : {
+              "comments" : "",
+              "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
+              "id" : "ceed7af2-9df5-3ce8-899c-305e408f78da",
+              "name" : "UpdateAttribute",
+              "type" : "PROCESSOR"
+            },
+            "flowFileExpiration" : "0 sec",
+            "groupIdentifier" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
+            "identifier" : "2dddcc98-07f2-33c7-a132-4d0bf89f8a60",
+            "labelIndex" : 1,
+            "loadBalanceCompression" : "DO_NOT_COMPRESS",
+            "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+            "name" : "",
+            "partitioningAttribute" : "",
+            "prioritizers" : [ ],
+            "selectedRelationships" : [ "" ],
+            "source" : {
+              "comments" : "",
+              "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
+              "id" : "95365af5-bedf-36c6-a2d8-362e2b87f831",
+              "name" : "Error",
+              "type" : "INPUT_PORT"
+            },
+            "zIndex" : 0
+          }, {
+            "backPressureDataSizeThreshold" : "1 GB",
+            "backPressureObjectThreshold" : 10000,
             "bends" : [ {
               "x" : -1177.993896484375,
               "y" : -2198.80810546875
@@ -1306,26 +1336,26 @@
             "destination" : {
               "comments" : "",
               "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
-              "id" : "ceed7af2-9df5-3ce8-899c-305e408f78da",
-              "name" : "UpdateAttribute",
+              "id" : "27f53b14-9815-34dc-8dc3-7a47193bde70",
+              "name" : "PutSQL EVENT LOG",
               "type" : "PROCESSOR"
             },
             "flowFileExpiration" : "0 sec",
             "groupIdentifier" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
-            "identifier" : "2dddcc98-07f2-33c7-a132-4d0bf89f8a60",
+            "identifier" : "db691f84-5ee1-3ea8-8c32-b2c0a8936d6e",
             "labelIndex" : 1,
             "loadBalanceCompression" : "DO_NOT_COMPRESS",
             "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
             "name" : "",
             "partitioningAttribute" : "",
             "prioritizers" : [ ],
-            "selectedRelationships" : [ "" ],
+            "selectedRelationships" : [ "success" ],
             "source" : {
               "comments" : "",
               "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
-              "id" : "95365af5-bedf-36c6-a2d8-362e2b87f831",
-              "name" : "Error",
-              "type" : "INPUT_PORT"
+              "id" : "8ae209b3-eb55-3072-8088-9e686dad7cf9",
+              "name" : "UpdateAttribute DATE_END_SPARK",
+              "type" : "PROCESSOR"
             },
             "zIndex" : 0
           }, {
@@ -1361,36 +1391,6 @@
               "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
               "id" : "27f53b14-9815-34dc-8dc3-7a47193bde70",
               "name" : "PutSQL EVENT LOG",
-              "type" : "PROCESSOR"
-            },
-            "zIndex" : 0
-          }, {
-            "backPressureDataSizeThreshold" : "1 GB",
-            "backPressureObjectThreshold" : 10000,
-            "bends" : [ ],
-            "componentType" : "CONNECTION",
-            "destination" : {
-              "comments" : "",
-              "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
-              "id" : "27f53b14-9815-34dc-8dc3-7a47193bde70",
-              "name" : "PutSQL EVENT LOG",
-              "type" : "PROCESSOR"
-            },
-            "flowFileExpiration" : "0 sec",
-            "groupIdentifier" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
-            "identifier" : "db691f84-5ee1-3ea8-8c32-b2c0a8936d6e",
-            "labelIndex" : 1,
-            "loadBalanceCompression" : "DO_NOT_COMPRESS",
-            "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-            "name" : "",
-            "partitioningAttribute" : "",
-            "prioritizers" : [ ],
-            "selectedRelationships" : [ "success" ],
-            "source" : {
-              "comments" : "",
-              "groupId" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
-              "id" : "8ae209b3-eb55-3072-8088-9e686dad7cf9",
-              "name" : "UpdateAttribute DATE_END_SPARK",
               "type" : "PROCESSOR"
             },
             "zIndex" : 0
@@ -1463,7 +1463,7 @@
           } ],
           "controllerServices" : [ ],
           "funnels" : [ ],
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "0bdf3438-e90c-3766-beaf-d68b6f1cf96a",
           "inputPorts" : [ {
             "allowRemoteAccess" : false,
@@ -1781,7 +1781,7 @@
               "putsql-sql-statement" : "UPDATE event_log\nSET state ='FAILED',\n    timestamp_fine ='${date_end_spark}',\n    message ='Processo di SPARK JOB della tabella ${table_name} TERMINATO in ERRRORE'\nWHERE id = '${uuid_originale}'",
               "Batch Size" : "100",
               "Obtain Generated Keys" : "false",
-              "JDBC Connection Pool" : "00126061-67b2-3372-b472-62784f79a227",
+              "JDBC Connection Pool" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
               "database-session-autocommit" : "false",
               "rollback-on-failure" : "false"
             },
@@ -2155,7 +2155,7 @@
           } ],
           "controllerServices" : [ ],
           "funnels" : [ ],
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "9c68e7a5-76be-3efa-9041-6e55c637c0d6",
           "inputPorts" : [ {
             "allowRemoteAccess" : false,
@@ -2276,7 +2276,7 @@
               "putsql-sql-statement" : "INSERT INTO event_log (id,state,timestamp_inizio,base_dati,scope,process,file_name)\nVALUES ('${uuid_originale}','WARNING','${date_start_spark}','${name_db}','SPARK ${name_db}','SPARK JOB SKIPPED BECAUSE INCREMENTAL','${filename}')",
               "Batch Size" : "100",
               "Obtain Generated Keys" : "false",
-              "JDBC Connection Pool" : "00126061-67b2-3372-b472-62784f79a227",
+              "JDBC Connection Pool" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
               "database-session-autocommit" : "false",
               "rollback-on-failure" : "false"
             },
@@ -2361,7 +2361,7 @@
               "esql-max-rows" : "0",
               "dbf-default-precision" : "10",
               "Max Wait Time" : "0 seconds",
-              "Database Connection Pooling Service" : "00126061-67b2-3372-b472-62784f79a227",
+              "Database Connection Pooling Service" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
               "dbf-user-logical-types" : "false",
               "dbf-default-scale" : "0",
               "compression-format" : "NONE",
@@ -2649,7 +2649,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "d32ed706-2900-3651-8ef1-7511e2b658bb",
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
@@ -2727,78 +2727,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "130f5824-e7c4-351b-a755-507504552ce6",
-          "name" : "UpdateAttribute",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 801.0294403021569,
-            "y" : -1100.400252564632
-          },
-          "properties" : {
-            "Store State" : "Do not store state",
-            "canonical-value-lookup-cache-size" : "100",
-            "dataDB" : "${last_elab_date:toDate(\"yyyy-MM-dd\"):format(\"yyyyMMdd\")}",
-            "dataFile" : "${second_date:toDate(\"yyyy-MM-dd\"):format(\"yyyyMMdd\")}"
-          },
-          "propertyDescriptors" : {
-            "Delete Attributes Expression" : {
-              "displayName" : "Delete Attributes Expression",
-              "identifiesControllerService" : false,
-              "name" : "Delete Attributes Expression",
-              "sensitive" : false
-            },
-            "Store State" : {
-              "displayName" : "Store State",
-              "identifiesControllerService" : false,
-              "name" : "Store State",
-              "sensitive" : false
-            },
-            "canonical-value-lookup-cache-size" : {
-              "displayName" : "Cache Value Lookup Cache Size",
-              "identifiesControllerService" : false,
-              "name" : "canonical-value-lookup-cache-size",
-              "sensitive" : false
-            },
-            "dataDB" : {
-              "displayName" : "dataDB",
-              "identifiesControllerService" : false,
-              "name" : "dataDB",
-              "sensitive" : false
-            },
-            "dataFile" : {
-              "displayName" : "dataFile",
-              "identifiesControllerService" : false,
-              "name" : "dataFile",
-              "sensitive" : false
-            },
-            "Stateful Variables Initial Value" : {
-              "displayName" : "Stateful Variables Initial Value",
-              "identifiesControllerService" : false,
-              "name" : "Stateful Variables Initial Value",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-update-attribute-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "e11a48bd-c5ae-389f-bed3-a2f3d52dd9d2",
           "name" : "Recovery Attribute",
           "penaltyDuration" : "30 sec",
@@ -2879,10 +2808,10 @@
           "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "success" ],
+          "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-standard-nar",
+            "artifact" : "nifi-update-attribute-nar",
             "group" : "org.apache.nifi",
             "version" : "1.11.4"
           },
@@ -2890,70 +2819,55 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "85095313-7646-3c6f-a3c4-32c444a6be4c",
-          "name" : "PutSQL EVENT LOG FAIL",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "130f5824-e7c4-351b-a755-507504552ce6",
+          "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1854.491999403321,
-            "y" : -902.2572488043168
+            "x" : 801.0294403021569,
+            "y" : -1100.400252564632
           },
           "properties" : {
-            "Support Fragmented Transactions" : "true",
-            "putsql-sql-statement" : "UPDATE event_log\nSET state ='ERROR',\n    timestamp_fine ='${date_end_spark}',\n    message ='Il file ${filename} ha genereato un ERRORE essendo antecedente all ultimo eseguito'\nWHERE id = '${uuid_originale}'",
-            "Batch Size" : "100",
-            "Obtain Generated Keys" : "false",
-            "JDBC Connection Pool" : "00126061-67b2-3372-b472-62784f79a227",
-            "database-session-autocommit" : "false",
-            "rollback-on-failure" : "false"
+            "Store State" : "Do not store state",
+            "canonical-value-lookup-cache-size" : "100",
+            "dataDB" : "${last_elab_date:toDate(\"yyyy-MM-dd\"):format(\"yyyyMMdd\")}",
+            "dataFile" : "${second_date:toDate(\"yyyy-MM-dd\"):format(\"yyyyMMdd\")}"
           },
           "propertyDescriptors" : {
-            "Support Fragmented Transactions" : {
-              "displayName" : "Support Fragmented Transactions",
+            "Delete Attributes Expression" : {
+              "displayName" : "Delete Attributes Expression",
               "identifiesControllerService" : false,
-              "name" : "Support Fragmented Transactions",
+              "name" : "Delete Attributes Expression",
               "sensitive" : false
             },
-            "putsql-sql-statement" : {
-              "displayName" : "SQL Statement",
+            "Store State" : {
+              "displayName" : "Store State",
               "identifiesControllerService" : false,
-              "name" : "putsql-sql-statement",
+              "name" : "Store State",
               "sensitive" : false
             },
-            "Transaction Timeout" : {
-              "displayName" : "Transaction Timeout",
+            "canonical-value-lookup-cache-size" : {
+              "displayName" : "Cache Value Lookup Cache Size",
               "identifiesControllerService" : false,
-              "name" : "Transaction Timeout",
+              "name" : "canonical-value-lookup-cache-size",
               "sensitive" : false
             },
-            "Batch Size" : {
-              "displayName" : "Batch Size",
+            "dataDB" : {
+              "displayName" : "dataDB",
               "identifiesControllerService" : false,
-              "name" : "Batch Size",
+              "name" : "dataDB",
               "sensitive" : false
             },
-            "Obtain Generated Keys" : {
-              "displayName" : "Obtain Generated Keys",
+            "dataFile" : {
+              "displayName" : "dataFile",
               "identifiesControllerService" : false,
-              "name" : "Obtain Generated Keys",
+              "name" : "dataFile",
               "sensitive" : false
             },
-            "JDBC Connection Pool" : {
-              "displayName" : "JDBC Connection Pool",
-              "identifiesControllerService" : true,
-              "name" : "JDBC Connection Pool",
-              "sensitive" : false
-            },
-            "database-session-autocommit" : {
-              "displayName" : "Database Session AutoCommit",
+            "Stateful Variables Initial Value" : {
+              "displayName" : "Stateful Variables Initial Value",
               "identifiesControllerService" : false,
-              "name" : "database-session-autocommit",
-              "sensitive" : false
-            },
-            "rollback-on-failure" : {
-              "displayName" : "Rollback On Failure",
-              "identifiesControllerService" : false,
-              "name" : "rollback-on-failure",
+              "name" : "Stateful Variables Initial Value",
               "sensitive" : false
             }
           },
@@ -2962,7 +2876,7 @@
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.standard.PutSQL",
+          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
@@ -2976,7 +2890,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "9936de73-6ba9-38aa-914b-ed704cfadf3c",
           "name" : "UpdateAttribute DATE_END_SPARK",
           "penaltyDuration" : "30 sec",
@@ -3043,6 +2957,143 @@
           "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
           "yieldDuration" : "1 sec"
         }, {
+          "autoTerminatedRelationships" : [ "success" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "85095313-7646-3c6f-a3c4-32c444a6be4c",
+          "name" : "PutSQL EVENT LOG FAIL",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1854.491999403321,
+            "y" : -902.2572488043168
+          },
+          "properties" : {
+            "Support Fragmented Transactions" : "true",
+            "putsql-sql-statement" : "UPDATE event_log\nSET state ='ERROR',\n    timestamp_fine ='${date_end_spark}',\n    message ='Il file ${filename} ha genereato un ERRORE essendo antecedente all ultimo eseguito'\nWHERE id = '${uuid_originale}'",
+            "Batch Size" : "100",
+            "Obtain Generated Keys" : "false",
+            "JDBC Connection Pool" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
+            "database-session-autocommit" : "false",
+            "rollback-on-failure" : "false"
+          },
+          "propertyDescriptors" : {
+            "Support Fragmented Transactions" : {
+              "displayName" : "Support Fragmented Transactions",
+              "identifiesControllerService" : false,
+              "name" : "Support Fragmented Transactions",
+              "sensitive" : false
+            },
+            "putsql-sql-statement" : {
+              "displayName" : "SQL Statement",
+              "identifiesControllerService" : false,
+              "name" : "putsql-sql-statement",
+              "sensitive" : false
+            },
+            "Transaction Timeout" : {
+              "displayName" : "Transaction Timeout",
+              "identifiesControllerService" : false,
+              "name" : "Transaction Timeout",
+              "sensitive" : false
+            },
+            "Batch Size" : {
+              "displayName" : "Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Obtain Generated Keys" : {
+              "displayName" : "Obtain Generated Keys",
+              "identifiesControllerService" : false,
+              "name" : "Obtain Generated Keys",
+              "sensitive" : false
+            },
+            "JDBC Connection Pool" : {
+              "displayName" : "JDBC Connection Pool",
+              "identifiesControllerService" : true,
+              "name" : "JDBC Connection Pool",
+              "sensitive" : false
+            },
+            "database-session-autocommit" : {
+              "displayName" : "Database Session AutoCommit",
+              "identifiesControllerService" : false,
+              "name" : "database-session-autocommit",
+              "sensitive" : false
+            },
+            "rollback-on-failure" : {
+              "displayName" : "Rollback On Failure",
+              "identifiesControllerService" : false,
+              "name" : "rollback-on-failure",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.PutSQL",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-avro-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "05d61659-a1e4-3ee2-9a3e-d43fa36485a2",
+          "name" : "ConvertAvroToJSON",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 172.17478425333456,
+            "y" : -1686.4153090984485
+          },
+          "properties" : {
+            "JSON container options" : "array",
+            "Wrap Single Record" : "false"
+          },
+          "propertyDescriptors" : {
+            "JSON container options" : {
+              "displayName" : "JSON container options",
+              "identifiesControllerService" : false,
+              "name" : "JSON container options",
+              "sensitive" : false
+            },
+            "Wrap Single Record" : {
+              "displayName" : "Wrap Single Record",
+              "identifiesControllerService" : false,
+              "name" : "Wrap Single Record",
+              "sensitive" : false
+            },
+            "Avro schema" : {
+              "displayName" : "Avro schema",
+              "identifiesControllerService" : false,
+              "name" : "Avro schema",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.avro.ConvertAvroToJSON",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -3054,7 +3105,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "189732c9-03aa-3082-b7b2-a2d265dbf705",
           "name" : "Prepare Job Spark Attributes",
           "penaltyDuration" : "30 sec",
@@ -3117,57 +3168,6 @@
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-avro-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "05d61659-a1e4-3ee2-9a3e-d43fa36485a2",
-          "name" : "ConvertAvroToJSON",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 172.17478425333456,
-            "y" : -1686.4153090984485
-          },
-          "properties" : {
-            "JSON container options" : "array",
-            "Wrap Single Record" : "false"
-          },
-          "propertyDescriptors" : {
-            "JSON container options" : {
-              "displayName" : "JSON container options",
-              "identifiesControllerService" : false,
-              "name" : "JSON container options",
-              "sensitive" : false
-            },
-            "Wrap Single Record" : {
-              "displayName" : "Wrap Single Record",
-              "identifiesControllerService" : false,
-              "name" : "Wrap Single Record",
-              "sensitive" : false
-            },
-            "Avro schema" : {
-              "displayName" : "Avro schema",
-              "identifiesControllerService" : false,
-              "name" : "Avro schema",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.avro.ConvertAvroToJSON",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
             "artifact" : "nifi-standard-nar",
             "group" : "org.apache.nifi",
             "version" : "1.11.4"
@@ -3176,7 +3176,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "f3492c36-b709-3b08-a7e0-b9fee6aad479",
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
@@ -3258,7 +3258,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "2e83c0c5-7d09-37c0-a995-defc1ea7c4b6",
           "name" : "EvaluateJsonPath",
           "penaltyDuration" : "30 sec",
@@ -3359,7 +3359,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "8de2fcb7-e105-352a-a662-c70e08fd07f5",
           "name" : "ExecuteSQL Per Offset",
           "penaltyDuration" : "30 sec",
@@ -3371,7 +3371,7 @@
             "esql-max-rows" : "0",
             "dbf-default-precision" : "10",
             "Max Wait Time" : "0 seconds",
-            "Database Connection Pooling Service" : "00126061-67b2-3372-b472-62784f79a227",
+            "Database Connection Pooling Service" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
             "dbf-user-logical-types" : "false",
             "dbf-default-scale" : "0",
             "compression-format" : "NONE",
@@ -3479,7 +3479,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "8621ea98-cf9b-340d-834c-bb6bbf868b48",
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
@@ -3543,7 +3543,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "f486e2a6-1bc3-35da-8721-8bd3234e3b9f",
           "name" : "RouteOnAttribute CONTROLLO DATA",
           "penaltyDuration" : "30 sec",
@@ -3588,7 +3588,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "f988862a-7846-3854-81b8-24e0fb0e73f5",
           "name" : "PutSQL EVENT LOG SUCCESSED",
           "penaltyDuration" : "30 sec",
@@ -3601,7 +3601,7 @@
             "putsql-sql-statement" : "UPDATE event_log\nSET state ='SUCCEDED',\n    timestamp_fine ='${date_end_spark}',\n    message ='Processo di SPARK della tabella ${table_name} TERMINATO con SUCCESSO. il file si trova in ${name_db}_DIFF/${table_name}. il file ha eseguito la differenza con ${last_elab_file}'\nWHERE id = '${uuid_originale}'",
             "Batch Size" : "100",
             "Obtain Generated Keys" : "false",
-            "JDBC Connection Pool" : "00126061-67b2-3372-b472-62784f79a227",
+            "JDBC Connection Pool" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
             "database-session-autocommit" : "false",
             "rollback-on-failure" : "false"
           },
@@ -3674,7 +3674,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "354de952-fca4-38de-8da6-b40212f5505a",
           "name" : "PutSQL EVENT LOG FAIL",
           "penaltyDuration" : "30 sec",
@@ -3687,7 +3687,7 @@
             "putsql-sql-statement" : "UPDATE event_log\nSET state ='FAILED',\n    timestamp_fine ='${date_end_spark}',\n    message ='Processo di SPARK JOB della tabella ${table_name} TERMINATO in ERRRORE. Nella cartella ${spark_log_error_path} si trova il file log di errore'\nWHERE id = '${uuid_originale}'",
             "Batch Size" : "100",
             "Obtain Generated Keys" : "false",
-            "JDBC Connection Pool" : "00126061-67b2-3372-b472-62784f79a227",
+            "JDBC Connection Pool" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
             "database-session-autocommit" : "false",
             "rollback-on-failure" : "false"
           },
@@ -3760,7 +3760,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "d7651a81-9518-38b9-bd1b-1e9b36b5cb3f",
           "name" : "Convert Date to Timestamp",
           "penaltyDuration" : "30 sec",
@@ -3817,7 +3817,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "PRIMARY",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "955e891f-a8fc-3325-9702-a20bbd52feec",
           "name" : "PutSQL START",
           "penaltyDuration" : "30 sec",
@@ -3830,7 +3830,7 @@
             "putsql-sql-statement" : "INSERT INTO event_log (id,state,timestamp_inizio,base_dati,scope,process,file_name)\nVALUES ('${uuid_originale}','STARTED','${date_start_spark}','${name_db}','SPARK ${name_db}','SPARK JOB','${filename}')",
             "Batch Size" : "100",
             "Obtain Generated Keys" : "false",
-            "JDBC Connection Pool" : "00126061-67b2-3372-b472-62784f79a227",
+            "JDBC Connection Pool" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
             "database-session-autocommit" : "false",
             "rollback-on-failure" : "false"
           },
@@ -3903,7 +3903,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "77682968-6d18-393f-8bc1-a278da475dd5",
           "name" : "ExecuteSQL UPDATE Offset",
           "penaltyDuration" : "30 sec",
@@ -3915,7 +3915,7 @@
             "esql-max-rows" : "0",
             "dbf-default-precision" : "10",
             "Max Wait Time" : "0 seconds",
-            "Database Connection Pooling Service" : "00126061-67b2-3372-b472-62784f79a227",
+            "Database Connection Pooling Service" : "ffb2bbb1-3c3e-3fe2-9ab3-43913dee0ef0",
             "dbf-user-logical-types" : "false",
             "dbf-default-scale" : "0",
             "compression-format" : "NONE",
@@ -4023,7 +4023,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "2ae4cbec-42ac-36b5-bb78-b81f8dd79db2",
           "name" : "UpdateAttribute DATE_END_SPARK",
           "penaltyDuration" : "30 sec",
@@ -4087,7 +4087,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "b844e162-3495-35c8-a620-37e3c6da8426",
           "name" : "Order by Timestamp",
           "penaltyDuration" : "30 sec",
@@ -4158,6 +4158,70 @@
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
+            "artifact" : "nifi-update-attribute-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
+          "identifier" : "2c322a4d-3511-39a8-904d-9f2f22fb57d3",
+          "name" : "UpdateAttribute DATE_END_SPARK",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 172.17478425333456,
+            "y" : -782.2384114277395
+          },
+          "properties" : {
+            "date_end_spark" : "${now():format('yyyy-MM-dd HH:mm:ss')}",
+            "Store State" : "Do not store state",
+            "canonical-value-lookup-cache-size" : "100"
+          },
+          "propertyDescriptors" : {
+            "date_end_spark" : {
+              "displayName" : "date_end_spark",
+              "identifiesControllerService" : false,
+              "name" : "date_end_spark",
+              "sensitive" : false
+            },
+            "Delete Attributes Expression" : {
+              "displayName" : "Delete Attributes Expression",
+              "identifiesControllerService" : false,
+              "name" : "Delete Attributes Expression",
+              "sensitive" : false
+            },
+            "Store State" : {
+              "displayName" : "Store State",
+              "identifiesControllerService" : false,
+              "name" : "Store State",
+              "sensitive" : false
+            },
+            "canonical-value-lookup-cache-size" : {
+              "displayName" : "Cache Value Lookup Cache Size",
+              "identifiesControllerService" : false,
+              "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "Stateful Variables Initial Value" : {
+              "displayName" : "Stateful Variables Initial Value",
+              "identifiesControllerService" : false,
+              "name" : "Stateful Variables Initial Value",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
             "artifact" : "nifi-hadoop-nar",
             "group" : "org.apache.nifi",
             "version" : "1.11.4"
@@ -4166,7 +4230,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "PRIMARY",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "4a273092-2d11-394b-866f-57dbe2e498ef",
           "name" : "ListHDFS",
           "penaltyDuration" : "30 sec",
@@ -4281,7 +4345,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "PRIMARY",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
+          "groupIdentifier" : "8ad306b0-a442-39ab-bd22-f06018dc2a58",
           "identifier" : "ea66d530-efb5-30cd-bf32-caac463b346a",
           "name" : "Spark Job",
           "penaltyDuration" : "30 sec",
@@ -4363,81 +4427,18 @@
           },
           "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-update-attribute-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "7a80b231-d574-347a-864b-3750a8798d5d",
-          "identifier" : "2c322a4d-3511-39a8-904d-9f2f22fb57d3",
-          "name" : "UpdateAttribute DATE_END_SPARK",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 172.17478425333456,
-            "y" : -782.2384114277395
-          },
-          "properties" : {
-            "date_end_spark" : "${now():format('yyyy-MM-dd HH:mm:ss')}",
-            "Store State" : "Do not store state",
-            "canonical-value-lookup-cache-size" : "100"
-          },
-          "propertyDescriptors" : {
-            "date_end_spark" : {
-              "displayName" : "date_end_spark",
-              "identifiesControllerService" : false,
-              "name" : "date_end_spark",
-              "sensitive" : false
-            },
-            "Delete Attributes Expression" : {
-              "displayName" : "Delete Attributes Expression",
-              "identifiesControllerService" : false,
-              "name" : "Delete Attributes Expression",
-              "sensitive" : false
-            },
-            "Store State" : {
-              "displayName" : "Store State",
-              "identifiesControllerService" : false,
-              "name" : "Store State",
-              "sensitive" : false
-            },
-            "canonical-value-lookup-cache-size" : {
-              "displayName" : "Cache Value Lookup Cache Size",
-              "identifiesControllerService" : false,
-              "name" : "canonical-value-lookup-cache-size",
-              "sensitive" : false
-            },
-            "Stateful Variables Initial Value" : {
-              "displayName" : "Stateful Variables Initial Value",
-              "identifiesControllerService" : false,
-              "name" : "Stateful Variables Initial Value",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
-          "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
         "variables" : {
           "hdfs-site" : "/opt/nifi/nifi-current/hdfs-site.xml",
           "name_db" : "ANASCO",
+          "test_var" : "test2",
           "hdfs_path" : "hdfs://ha-cluster:8020",
           "spark_master" : "spark://10.207.233.197:7077,10.207.233.196:7077",
           "spark_class" : "it.datalake.MainRunner",
           "core-site" : "/opt/nifi/nifi-current/core-site.xml",
-          "spark_run" : "/opt/datafiles/cdm-source/lib/runSparkNew.sh",
-          "spark_jar" : "/opt/datafiles/cdm-source/lib/cdm-diff-0.0.2.jar"
+          "spark_jar" : "/opt/datafiles/cdm-source/lib/cdm-diff-0.0.2.jar",
+          "spark_run" : "/opt/datafiles/cdm-source/lib/runSparkNew.sh"
         }
       },
       "flowEncodingVersion" : "1.0",
