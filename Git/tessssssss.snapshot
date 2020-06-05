@@ -1,0 +1,464 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "e56b4fce-5c5d-30b6-9fba-6a616767fc56",
+            "name" : "FetchHDFS",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "224382e5-9cf5-31e1-96c7-8205d75a697c",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "c37906d7-52e7-3f84-9dda-2ab983228a3a",
+            "name" : "ListHDFS",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "ed9cc8cc-92ab-3331-aa60-569aac79cb33",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "ff0040ac-be89-3046-8cfa-a852d4164752",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "0f5c6b23-533c-3e08-bce3-80fc41e9d063",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "ed9cc8cc-92ab-3331-aa60-569aac79cb33",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "f2dc5db6-22be-3777-b8f8-b326ea1da71f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "comms.failure", "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "e56b4fce-5c5d-30b6-9fba-6a616767fc56",
+            "name" : "FetchHDFS",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "0f5c6b23-533c-3e08-bce3-80fc41e9d063",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "d3b6fd56-276e-3a4a-a977-2f89edda7a30",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+            "id" : "e56b4fce-5c5d-30b6-9fba-6a616767fc56",
+            "name" : "FetchHDFS",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
+        "controllerServices" : [ ],
+        "funnels" : [ ],
+        "identifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "Test ListHDFS",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : -560.0,
+          "y" : -288.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-hadoop-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "PRIMARY",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "c37906d7-52e7-3f84-9dda-2ab983228a3a",
+          "name" : "ListHDFS",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -1024.0,
+            "y" : -456.0
+          },
+          "properties" : {
+            "Hadoop Configuration Resources" : "/opt/nifi/nifi-current/core-site.xml,/opt/nifi/nifi-current/hdfs-site.xml",
+            "Recurse Subdirectories" : "false",
+            "file-filter-mode" : "filter-mode-directories-and-files",
+            "File Filter" : "[^\\.].*",
+            "Kerberos Relogin Period" : "4 hours",
+            "Directory" : "/AMAT/BIKEMI_AREESOSTA/year=2019/month=11/day=05"
+          },
+          "propertyDescriptors" : {
+            "Hadoop Configuration Resources" : {
+              "displayName" : "Hadoop Configuration Resources",
+              "identifiesControllerService" : false,
+              "name" : "Hadoop Configuration Resources",
+              "sensitive" : false
+            },
+            "maximum-file-age" : {
+              "displayName" : "Maximum File Age",
+              "identifiesControllerService" : false,
+              "name" : "maximum-file-age",
+              "sensitive" : false
+            },
+            "Additional Classpath Resources" : {
+              "displayName" : "Additional Classpath Resources",
+              "identifiesControllerService" : false,
+              "name" : "Additional Classpath Resources",
+              "sensitive" : false
+            },
+            "Distributed Cache Service" : {
+              "displayName" : "Distributed Cache Service",
+              "identifiesControllerService" : true,
+              "name" : "Distributed Cache Service",
+              "sensitive" : false
+            },
+            "Recurse Subdirectories" : {
+              "displayName" : "Recurse Subdirectories",
+              "identifiesControllerService" : false,
+              "name" : "Recurse Subdirectories",
+              "sensitive" : false
+            },
+            "file-filter-mode" : {
+              "displayName" : "File Filter Mode",
+              "identifiesControllerService" : false,
+              "name" : "file-filter-mode",
+              "sensitive" : false
+            },
+            "File Filter" : {
+              "displayName" : "File Filter",
+              "identifiesControllerService" : false,
+              "name" : "File Filter",
+              "sensitive" : false
+            },
+            "kerberos-credentials-service" : {
+              "displayName" : "Kerberos Credentials Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-credentials-service",
+              "sensitive" : false
+            },
+            "Kerberos Keytab" : {
+              "displayName" : "Kerberos Keytab",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Keytab",
+              "sensitive" : false
+            },
+            "Kerberos Principal" : {
+              "displayName" : "Kerberos Principal",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Principal",
+              "sensitive" : false
+            },
+            "Kerberos Relogin Period" : {
+              "displayName" : "Kerberos Relogin Period",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Relogin Period",
+              "sensitive" : false
+            },
+            "minimum-file-age" : {
+              "displayName" : "Minimum File Age",
+              "identifiesControllerService" : false,
+              "name" : "minimum-file-age",
+              "sensitive" : false
+            },
+            "Directory" : {
+              "displayName" : "Directory",
+              "identifiesControllerService" : false,
+              "name" : "Directory",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.hadoop.ListHDFS",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-hadoop-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "e56b4fce-5c5d-30b6-9fba-6a616767fc56",
+          "name" : "FetchHDFS",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -1024.0,
+            "y" : -144.0
+          },
+          "properties" : {
+            "HDFS Filename" : "${path}/${filename}",
+            "Hadoop Configuration Resources" : "/opt/nifi/nifi-current/core-site.xml,/opt/nifi/nifi-current/hdfs-site.xml",
+            "Compression codec" : "NONE",
+            "Kerberos Relogin Period" : "4 hours"
+          },
+          "propertyDescriptors" : {
+            "HDFS Filename" : {
+              "displayName" : "HDFS Filename",
+              "identifiesControllerService" : false,
+              "name" : "HDFS Filename",
+              "sensitive" : false
+            },
+            "Hadoop Configuration Resources" : {
+              "displayName" : "Hadoop Configuration Resources",
+              "identifiesControllerService" : false,
+              "name" : "Hadoop Configuration Resources",
+              "sensitive" : false
+            },
+            "kerberos-credentials-service" : {
+              "displayName" : "Kerberos Credentials Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-credentials-service",
+              "sensitive" : false
+            },
+            "Kerberos Keytab" : {
+              "displayName" : "Kerberos Keytab",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Keytab",
+              "sensitive" : false
+            },
+            "Additional Classpath Resources" : {
+              "displayName" : "Additional Classpath Resources",
+              "identifiesControllerService" : false,
+              "name" : "Additional Classpath Resources",
+              "sensitive" : false
+            },
+            "Kerberos Principal" : {
+              "displayName" : "Kerberos Principal",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Principal",
+              "sensitive" : false
+            },
+            "Compression codec" : {
+              "displayName" : "Compression codec",
+              "identifiesControllerService" : false,
+              "name" : "Compression codec",
+              "sensitive" : false
+            },
+            "Kerberos Relogin Period" : {
+              "displayName" : "Kerberos Relogin Period",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Relogin Period",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.hadoop.FetchHDFS",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "ed9cc8cc-92ab-3331-aa60-569aac79cb33",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -232.0,
+            "y" : -160.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-update-attribute-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "ba443817-c35a-3e84-9277-4a3fd7b22e0a",
+          "identifier" : "0f5c6b23-533c-3e08-bce3-80fc41e9d063",
+          "name" : "UpdateAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -1024.0,
+            "y" : 96.0
+          },
+          "properties" : {
+            "filename" : "test.txt",
+            "Store State" : "Do not store state",
+            "canonical-value-lookup-cache-size" : "100"
+          },
+          "propertyDescriptors" : {
+            "Delete Attributes Expression" : {
+              "displayName" : "Delete Attributes Expression",
+              "identifiesControllerService" : false,
+              "name" : "Delete Attributes Expression",
+              "sensitive" : false
+            },
+            "filename" : {
+              "displayName" : "filename",
+              "identifiesControllerService" : false,
+              "name" : "filename",
+              "sensitive" : false
+            },
+            "Store State" : {
+              "displayName" : "Store State",
+              "identifiesControllerService" : false,
+              "name" : "Store State",
+              "sensitive" : false
+            },
+            "canonical-value-lookup-cache-size" : {
+              "displayName" : "Cache Value Lookup Cache Size",
+              "identifiesControllerService" : false,
+              "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "Stateful Variables Initial Value" : {
+              "displayName" : "Stateful Variables Initial Value",
+              "identifiesControllerService" : false,
+              "name" : "Stateful Variables Initial Value",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
